@@ -16,12 +16,21 @@ public class NumberUtilities {
         return null;
     }
 
-    public static String getRange(int start) {
-        return null;
-    }
+    public static String getRange(int stop) {
+        String returnedRange = "";
+            for(int i= 0; i < stop - 1; i++){
+                returnedRange = returnedRange + i;
+            }
+            return returnedRange;
+        }
+
 
     public static String getRange(int start, int stop) {
-        return null;
+        String returnedRange= "";
+        for(int i = 0; i < 5; i++){
+            returnedRange = returnedRange +1;
+        }
+        return returnedRange;
     }
 
 
